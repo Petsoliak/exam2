@@ -1,0 +1,312 @@
+@font-face {
+  font-family: "gothambold1";
+  src: url("/gothambold/gothambold1.eot");
+  src: local("gothambold1"), url("/gothambold/gothambold1.woff") format("woff"),
+    url("/gothambold/gothambold1.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("/GothamBook/GothamBook.eot");
+  src: local("GothamBook"), url("/GothamBook/GothamBook.woff") format("woff"),
+    url("/GothamBook/GothamBook.ttf") format("truetype");
+}
+
+body {
+  transition: all 0.1s ease-in;
+  margin: 0 0;
+}
+
+/* section one */
+.page-one {
+  min-height: 800px;
+  max-width: 1600px;
+  background-image: url(./img/lines.png);
+  background-size: cover;
+  padding: 0 15%;
+}
+
+.header {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 650px;
+}
+.header__menu li a {
+  font-family: "GothamBook" !important;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header__social li a {
+  color: #ffffff;
+  font-family: "GothamBook" !important;
+  font-size: 14px;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  padding: 8px 9px;
+  border-radius: 50%;
+}
+
+.header__social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  width: 170px;
+}
+
+.one__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+}
+.one__title h2 {
+  font-family: "gothambold1" !important;
+  color: #ffffff;
+  font-size: 80px;
+  margin: 0 0;
+}
+.one__title p {
+  font-family: "GothamBook" !important;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+button {
+  outline: none;
+  border: 1px solid black;
+  box-shadow: none;
+  height: 50px;
+  width: 180px;
+  font-family: "GothamBook" !important;
+  background-color: #ffff;
+}
+/* section two */
+
+.page-two {
+  min-height: 953px;
+  max-width: 1600px;
+}
+.two__title {
+  display: flex;
+  justify-content: center;
+  padding: 10% 0;
+  font-family: "gothambold1" !important;
+  color: black;
+  font-size: 44px;
+  margin: 0 0;
+}
+.two__img-block {
+  padding-right: 4%;
+}
+.text-block h3 {
+  font-family: "GothamBook" !important;
+  font-size: 20px;
+  color: black;
+  opacity: 0.8;
+  margin: 0 0;
+}
+.text-block h2 {
+  font-family: "gothambold1" !important;
+  color: black;
+  font-size: 44px;
+  margin: 0 0;
+}
+.text-block p {
+  font-family: "GothamBook" !important;
+  font-size: 18px;
+}
+
+.wrapper {
+  margin-top: -30%;
+  display: flex;
+  justify-content: center;
+}
+
+.point {
+  padding-top: 5%;
+}
+
+/* section three */
+
+.page-three {
+  min-height: 680px;
+  max-width: 1600px;
+}
+.three__purple-block {
+  display: flex;
+  justify-content: flex-end;
+}
+.three__img-block {
+  padding-left: 4%;
+}
+
+/* section fourth */
+
+.page-fourth {
+  min-height: 1035px;
+  max-width: 1600px;
+  background-image: url(./img/city2xliner.png);
+  background-size: cover;
+  padding: 0 15%;
+}
+
+.fourth__title {
+  display: flex;
+  justify-content: center;
+  padding: 15% 0;
+  font-family: "gothambold1" !important;
+  color: #ffff;
+  font-size: 44px;
+}
+
+.fourth__cards {
+  display: flex;
+  justify-content: center;
+}
+.cards__one {
+  padding-right: 5%;
+}
+.cards__three {
+  padding-left: 5%;
+}
+
+.card__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+}
+.card__top h2 {
+  font-family: "Gothambold1" !important;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.card__top p {
+  font-family: "GothamBook" !important;
+  font-size: 18px;
+  opacity: 0.8;
+}
+.card__bottom h2 {
+  font-family: "GothamBook" !important;
+  font-size: 18px;
+}
+.card__bottom p {
+  font-family: "GothamBook" !important;
+  font-size: 18px;
+  opacity: 0.8;
+}
+.date {
+  color: #55b7ff;
+  font-family: "GothamBook" !important;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.bottom__text {
+  padding-right: 30%;
+}
+
+.card__bottom {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+}
+
+.card__img {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* page five */
+
+.page-five {
+  min-height: 1000px;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+}
+.five__title {
+  display: flex;
+  justify-content: center;
+  margin: 10% 0;
+  font-family: "gothambold1" !important;
+  color: black;
+  font-size: 44px;
+}
+
+.five__gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery__left {
+  padding-top: 0.2%;
+}
+.gallery__left:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.gallery__right {
+  max-width: 600px;
+  padding-left: 1%;
+}
+.gallery__right img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.gallery__right img {
+  padding: 0.5%;
+}
+.five__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+/* page six */
+#map {
+  height: 700px;
+  width: 100%;
+}
+.footer {
+  min-height: 520px;
+  max-width: 1600px;
+  background-image: url(./img/Frame.png);
+  background-size: cover;
+}
+
+.footer__logo {
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 15%;
+}
+* {
+  transition: all 0.1s ease-in;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
